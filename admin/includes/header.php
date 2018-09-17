@@ -1,3 +1,6 @@
+<!-- "../dirname" - the '...' is used to go back in the directory -->
+<?php include "../includes/db.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 

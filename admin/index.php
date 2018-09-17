@@ -7,7 +7,7 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
-
+                <?php if($connection) echo "conn"?>
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
