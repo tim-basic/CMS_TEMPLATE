@@ -15,7 +15,7 @@
         <!-- link to home -->
         <li><a href="../index.php">Home</a></li>
 
-        <?php require_once "drop_down.php"?>
+        <?php require_once "admin_drop_down.php" ?>
 
 
     </ul>
@@ -29,15 +29,15 @@
                 <a href="javascript:;" data-toggle="collapse" data-target="#dropdown_posts"><i class="fa fa-fw fa-arrows-v"></i> Posts<i class="fa fa-fw fa-caret-down"></i></a>
                 <ul id="dropdown_posts" class="collapse">
                     <li>
-                        <a href="#">Dropdown Item</a>
+                        <a href="posts.php">View All Posts</a>
                     </li>
                     <li>
-                        <a href="#">Dropdown Item</a>
+                        <a href="#">Add Posts</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Categories</a>
+                <a href="./categories.php"><i class="fa fa-fw fa-wrench"></i> Categories</a>
             </li>
 
             <li class="active">

@@ -1,13 +1,12 @@
-<?php include "includes/header.php"; ?>
+<?php include "includes/admin_header.php"; ?>
 
     <div id="wrapper">
 
-<?php include "includes/navigation.php"; ?>
+<?php include "includes/admin_navigation.php"; ?>
 
         <div id="page-wrapper">
 
             <div class="container-fluid">
-                <?php if($connection) echo "conn"?>
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
@@ -26,4 +25,4 @@
         </div>
         <!-- /#page-wrapper -->
 
-<?php require_once "includes/footer.php"; ?>
+<?php require_once "includes/admin_footer.php"; ?>

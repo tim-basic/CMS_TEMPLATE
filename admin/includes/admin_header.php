@@ -1,4 +1,5 @@
 <!-- "../dirname" - the '...' is used to go back in the directory -->
+<?php ob_start(); ?>
 <?php include "../includes/db.php" ?>
 
 <!DOCTYPE html>
